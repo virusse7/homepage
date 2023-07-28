@@ -1,0 +1,36 @@
+.welcomeSection__header {
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 2px;
+}
+.welcomeSection__myImage {
+    border-radius: 50%;
+    box-shadow: 8px 8px 24px -1px rgba(43, 43, 47, 1);
+}
+
+.aboutMe {
+    
+}
+.aboutMe__header{
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 2px;
+}
+
+.aboutMe__paragraph {
+    margin: auto;
+    max-width: 75%;
+}
+
+.socialMedia__header {
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 2px;
+}
+
+.socialMedia__link {
+    text-decoration: none;
+}

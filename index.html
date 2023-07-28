@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <title>homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="containerMain">
+        <header class="header">
+            <h1 class="header__homepage">HomePage - Pierwszy projekt</h1>
+            <button class="header__changeBackground">Zmień tło na <span>ciemny</span></button>
+        </header>
+        <nav class="navigation">
+            <p>
+                <a href="#doswiadczenie" class="navigation__link">Doświadczenie</a>
+                <a href="#o-mnie" class="navigation__link">O mnie</a>
+                <a href="#social-media" class="navigation__link">Social Media</a>
+            </p>
+
+        </nav>
+        <main>
+            <section class="welcomeSection">
+                <img class="welcomeSection__myImage" src="images/DanielWieczorek.jpg" alt="Daniel Wieczorek"
+                    width="150px" height="150px">
+                <h2 class="welcomeSection__header">Krótki wstęp o mnie</h2>
+                <p>
+                    <strong>Cześć nazywam się Daniel Wieczorek mieszkam w Chorzowie i mam 22 lata.</strong>
+                </p>
+            </section>
+            <section id="doswiadczenie">
+                <table class="table">
+                    <caption class="table__caption">Doświadczenie</caption>
+                    <tr>
+                        <th>Liberty Poland S.A</th>
+                        <td>2022 Luty - obecnie</td>
+                        <td>telekomunikacja - konsultant</td>
+                    </tr>
+                    <tr>
+                        <th>MM Road</th>
+                        <td>2021</td>
+                        <td>pracownik oznakowania drogowego</td>
+                    </tr>
+                    <tr>
+                        <th>Auto Krainer Klagenfurt am Wörthersee</th>
+                        <td>ukończony staż</td>
+                        <td>staż - mechanik</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="o-mnie" class="aboutMe">
+                <h2 class="aboutMe__header">Więcej o mnie</h2>
+                <p class="aboutMe__paragraph">
+                    Od zawsze interesowały mnie samochody i komputery,lubiałem grać w gry w których można było bawić się
+                    kodowaniem.
+                    Kiedyś w szkole miałem już lekcje odnośnie języka znaczników czyli HTML-a, ale dużo rzeczy było dla
+                    mnie
+                    nie jasne i pomyślałem że to nie dla mnie.
+                    Po kilku latach wróciła chęć i zajawka. Zacząłem czytać, oglądać i powoli uczyć się samodzielnie, a
+                    obecnie przechodzę kurs na zostanie frontendowcem u
+                    <a href="https://youcode.pl/zostawiam-maila/" target="_blank">youcode</a>.
+                    Po kursie będę dalej się uczył i mam nadzieje że w pracy szlifował dalszą wiedzę.<br>
+                    Skończyłem szkołę <span>ZST nr2 im. M. Batko</span> w Chorzowie jako Technik Pojazdów Samochodowych.
+                </p>
+            </section>
+            <section id="social-media" class="socialMedia">
+                <h3 class="socialMedia__header">Social media</h3>
+                <p>
+                    <a class="socialMedia__link" href="https://www.linkedin.com/in/daniel-wieczorek-7a9a28285/"
+                        target="_blank" rel="noreferrer noopener">LinkedIn&nbsp;</a>
+                    <img src="images/LinkedInIcon.png" alt="LinkedInIcon" max-width="40px" height="20px">
+                </p>
+                <p>
+                    <a class="socialMedia__link" href="https://github.com/virusse7" target="_blank"
+                        rel="noreferrer noopener">GitHub</a>
+                    <img src="images/GitHubIcon.png" alt="GitHubIcon" max-width="40px" height="20px">
+                </p>
+            </section>
+        </main>
+        <footer class="footer">Created by Daniel Wieczorek</footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.header__homepage {
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 2px;
+}
+
+.header__changeBackground {
+
+    background-color: hsl(0, 1%, 77%);
+    padding: 5px;
+}
+
+.header__changeBackground:hover {
+    background-color: hsla(0, 1%, 77%, 0.541);
+    padding: 5px;
+}
+
+.header__changeBackground:active {
+    background-color: hsla(0, 1%, 77%, 0.2);
+    padding: 5px;
+}

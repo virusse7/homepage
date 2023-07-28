@@ -1,0 +1,7 @@
+.table {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+    border: 2px solid rgb(163, 160, 160);
+}
+
