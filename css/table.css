@@ -2,6 +2,18 @@
     max-width: 100%;
     overflow-x: auto;
     margin: auto;
-    border: 2px solid rgb(163, 160, 160);
+    border: 2px solid hsl(0, 2%, 63%);
 }
 
+.tableFlexContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.tableExperience__caption {
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-decoration: underline hsl(180, 100%, 50%) 2px;
+}

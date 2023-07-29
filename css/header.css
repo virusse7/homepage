@@ -3,12 +3,17 @@
     padding: 10px;
     padding-top: 30px;
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: hsl(180, 100%, 50%);
     text-decoration-thickness: 2px;
 }
 
-.header__changeBackground {
+.header__flexContainer {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.header__changeBackground {
+    margin: 25px 5px 30px ;
     background-color: hsl(0, 1%, 77%);
     padding: 5px;
 }

@@ -3,14 +3,18 @@
     line-height: 2.5;
 }
 
-.navigation__list { 
+.navigation__paragraph {
+    margin-bottom: 30px;
+}
 
+.navigation__list { 
     list-style-type: none;
 }
 .navigation__link {
+    margin: 5px;
     color: hsl(0, 1%, 13%);
     text-decoration: none;
-    border: 2px double rgb(51, 48, 48);
+    border: 2px double hsl(0, 3%, 19%);
     background-color: hsl(0, 0%, 47%);
     padding: 5px;
 }

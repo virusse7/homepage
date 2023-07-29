@@ -4,13 +4,18 @@
     text-decoration-color: aqua;
     text-decoration-thickness: 2px;
 }
+
+.welcomeSection__important {
+    font-weight: bold;
+}
+
 .welcomeSection__myImage {
     border-radius: 50%;
     box-shadow: 8px 8px 24px -1px rgba(43, 43, 47, 1);
 }
 
 .aboutMe {
-    
+    padding-top: 20px;
 }
 .aboutMe__header{
     padding: 2px;
@@ -20,12 +25,26 @@
 }
 
 .aboutMe__paragraph {
+    line-height: 2;
+    font-size: large;
     margin: auto;
     max-width: 75%;
 }
 
+.aboutMe__school {
+    font-weight: bold;
+}
+
+.aboutMe__link {
+    text-decoration-thickness: 1px;
+}
+
+.aboutMe__link:visited {
+    color: hsl(180, 94%, 28%);
+}
+
 .socialMedia__header {
-    padding: 2px;
+    padding: 10px;
     text-decoration: underline;
     text-decoration-color: aqua;
     text-decoration-thickness: 2px;

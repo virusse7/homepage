@@ -27,11 +27,13 @@
 <body class="body">
     <div class="containerMain">
         <header class="header">
+            <div class="header__flexContainer">
+                <button class="header__changeBackground">Zmień tło na <span>ciemny</span></button>
+            </div>
             <h1 class="header__homepage">HomePage - Pierwszy projekt</h1>
-            <button class="header__changeBackground">Zmień tło na <span>ciemny</span></button>
         </header>
         <nav class="navigation">
-            <p>
+            <p class="navigation__paragraph">
                 <a href="#doswiadczenie" class="navigation__link">Doświadczenie</a>
                 <a href="#o-mnie" class="navigation__link">O mnie</a>
                 <a href="#social-media" class="navigation__link">Social Media</a>
@@ -44,28 +46,37 @@
                     width="150px" height="150px">
                 <h2 class="welcomeSection__header">Krótki wstęp o mnie</h2>
                 <p>
-                    <strong>Cześć nazywam się Daniel Wieczorek mieszkam w Chorzowie i mam 22 lata.</strong>
+                    <span class="welcomeSection__important">Cześć nazywam się Daniel Wieczorek mieszkam w Chorzowie i
+                        mam 22 lata.</span>
                 </p>
             </section>
             <section id="doswiadczenie">
-                <table class="table">
-                    <caption class="table__caption">Doświadczenie</caption>
-                    <tr>
-                        <th>Liberty Poland S.A</th>
-                        <td>2022 Luty - obecnie</td>
-                        <td>telekomunikacja - konsultant</td>
-                    </tr>
-                    <tr>
-                        <th>MM Road</th>
-                        <td>2021</td>
-                        <td>pracownik oznakowania drogowego</td>
-                    </tr>
-                    <tr>
-                        <th>Auto Krainer Klagenfurt am Wörthersee</th>
-                        <td>ukończony staż</td>
-                        <td>staż - mechanik</td>
-                    </tr>
-                </table>
+                <div class="tableFlexContainer">
+                    <table class="tableExperience">
+                        <caption class="tableExperience__caption">Doświadczenie</caption>
+                        <tr>
+                            <th class="tableExperience__cell--header">Firma</th>
+                            <th class="tableExperience__cell--header">Czas zatrudnienia</th>
+                            <th class="tableExperience__cell--header">Stanowisko</th>
+                        </tr>
+                        <tr>
+                            <th class="tableExperience__cell">Liberty Poland S.A</th>
+                            <td class="tableExperience__cell">2022 Luty - obecnie</td>
+                            <td class="tableExperience__cell">telekomunikacja - konsultant</td>
+                        </tr>
+                        <tr>
+                            <th class="tableExperience__cell">MM Road</th>
+                            <td class="tableExperience__cell">2021</td>
+                            <td class="tableExperience__cell">pracownik oznakowania drogowego</td>
+                        </tr>
+                        <tr>
+                            <th class="tableExperience__cell">Auto Krainer Klagenfurt am
+                                Wörthersee</th>
+                            <td class="tableExperience__cell">ukończony staż</td>
+                            <td class="tableExperience__cell">staż - mechanik</td>
+                        </tr>
+                    </table>
+                </div>
             </section>
             <section id="o-mnie" class="aboutMe">
                 <h2 class="aboutMe__header">Więcej o mnie</h2>
@@ -77,9 +88,10 @@
                     nie jasne i pomyślałem że to nie dla mnie.
                     Po kilku latach wróciła chęć i zajawka. Zacząłem czytać, oglądać i powoli uczyć się samodzielnie, a
                     obecnie przechodzę kurs na zostanie frontendowcem u
-                    <a href="https://youcode.pl/zostawiam-maila/" target="_blank">youcode</a>.
+                    <a class="aboutMe__link" href="https://youcode.pl/zostawiam-maila/" target="_blank">youcode</a>.
                     Po kursie będę dalej się uczył i mam nadzieje że w pracy szlifował dalszą wiedzę.<br>
-                    Skończyłem szkołę <span>ZST nr2 im. M. Batko</span> w Chorzowie jako Technik Pojazdów Samochodowych.
+                    Skończyłem szkołę <span class="aboutMe__school">ZST nr2 im. M. Batko w Chorzowie</span> jako Technik
+                    Pojazdów Samochodowych.
                 </p>
             </section>
             <section id="social-media" class="socialMedia">

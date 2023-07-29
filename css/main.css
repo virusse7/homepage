@@ -7,17 +7,16 @@ html {
 }
 
 .body {
-    background-color: rgb(105, 104, 104);
+    background-color: hsl(0, 0%, 41%);
 
 }
 .containerMain {
     line-height: 1.5;
     margin: auto;
-    background-color: rgb(151, 149, 149);
+    background-color: hsl(0, 1%, 59%);
     text-align: center;
-    max-width: 75%;
+    max-width: 90%;
     font-family: "Lato", sans-serif;
-    box-shadow: 0px 0px 49px 5px rgba(66, 68, 90, 1);
-
+    box-shadow: 0px 0px 49px 5px hsl(235, 15%, 31%);
 }
 
