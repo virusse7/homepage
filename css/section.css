@@ -37,11 +37,12 @@
 }
 
 .aboutMe__link {
+    color: hsl(180, 100%, 50%);
     text-decoration-thickness: 1px;
 }
 
 .aboutMe__link:visited {
-    color: hsl(180, 94%, 28%);
+    color: hsl(180, 100%, 50%);
 }
 
 .socialMedia__header {
