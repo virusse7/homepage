@@ -1,25 +1,24 @@
 {
     const welcome = () => {
         console.log("Hello Dev!");
-    }
+    };
 
     const toggleBackground = () => {
-        const toggleBackground = document.querySelector(".js-toggleBackground");
+        const mainElement = document.querySelector(".js-main");
+        let themeName = document.querySelector(".js-themeName");
 
-        toggleBackground.addEventListener("click", () => {
-            const bodyElement = document.querySelector(".js-main");
-            let themeName = document.querySelector(".js-themeName");
+        mainElement.classList.toggle("darkBackground");
+        themeName.innerText = mainElement.classList.contains("darkBackground") ? "jasny" : "ciemny";
+    };
 
-            bodyElement.classList.toggle("darkBackground");
 
-            themeName.innerText = bodyElement.classList.contains("darkBackground") ? "jasny" : "ciemny";
-        })
-    }
     const init = () => {
-        toggleBackground();
-        welcome();
-    }
+        const toggleBackgroundButton = document.querySelector(".js-toggleBackgroundButton");
 
+        welcome();
+
+        toggleBackgroundButton.addEventListener("click", toggleBackground);
+    };
 
     init();
 }
